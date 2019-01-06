@@ -37,6 +37,8 @@ void setup()
     /*init sensors*/
     status = initSensors()
 
+    error
+
     /*init interrupts*/
     //attachInterrupt(digitalPinToInterrupt(LAUNCH_INTERRUPT_PIN), launchInterrupt, CHANGE)
 
