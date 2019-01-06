@@ -5,6 +5,11 @@ branches:
   only:
   - gh-pages
   - /.*/
+
+compile:
+  platforms:
+    - uno
+    - teensy 3.6
 script:
    - cd avionics
    - bundle install
