@@ -14,4 +14,4 @@ script:
    - cd avionics
    - bundle install
    - bundle exec arduino_ci_remote.rb
-   - arduino --verify --board arduino:avr:uno avionics.ino
+   - arduino --verify --board teensy:avr:teensy36 avionics.ino
