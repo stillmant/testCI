@@ -12,6 +12,6 @@ compile:
     - teensy 3.6
 script:
    - cd avionics
-   - arduino --verify --board arduino:avr:uno avionics.ino
    - bundle install
    - bundle exec arduino_ci_remote.rb
+   - arduino --verify --board arduino:avr:uno avionics.ino
