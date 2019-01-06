@@ -35,7 +35,7 @@ void setup()
     Wire.setDefaultTimeout(100000); //100ms
 
     /*init sensors*/
-    status = initSensors();
+    status = initSensors()
 
     /*init interrupts*/
     //attachInterrupt(digitalPinToInterrupt(LAUNCH_INTERRUPT_PIN), launchInterrupt, CHANGE)
