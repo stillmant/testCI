@@ -12,4 +12,3 @@ compile:
 script:
    - bundle install
    - bundle exec arduino_ci_remote.rb
-   - arduino --verify --board teensy:avr:teensy36 avionics.ino
